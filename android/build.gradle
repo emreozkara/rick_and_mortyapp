@@ -1,0 +1,24 @@
+// android/build.gradle (root-level)
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Android Gradle Plugin sürümünü tanımlıyoruz.
+        classpath "com.android.tools.build:gradle:8.14.1"
+        // Kotlin eklentisi (kullanmıyorsan kaldırabilirsin)
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.10"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
