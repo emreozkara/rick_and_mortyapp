@@ -1,16 +1,1 @@
-# rickandmortyapp
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This application was my first project when I started developing with Flutter. I followed the course on the HQ NET YouTube channel, which helped me learn the widget structure of Flutter as well as how to use the router and provider packages. I also gained experience in API integration through this project.
